@@ -5,7 +5,7 @@ import {
   Routes,
   useLocation,
 } from "react-router-dom";
-import StickyNavBar from "./components/StickyNavBar";
+import StickyNavBar from "./components/StickyNavbar";
 import HomePage from "./pages/HomePage";
 import PortfolioPage from "./pages/PortfolioPage";
 import TechnologiesPage from "./pages/TechnologiesPage";
