@@ -34,9 +34,9 @@ const CaseStudy1 = () => {
           color="white"
           className=" w-full mt-5 leading-relaxed tracking-widest "
         >
-          We're a web development agency that takes care of every step of the
-          website creation process, from design to deployment and maintenance.
-          Our team of experts is dedicated to delivering high-quality websites
+          We're a Software Development agency that takes care of every step of the
+          software creation process, from design to deployment and maintenance.
+          Our team of experts is dedicated to delivering high-quality digital solutions
           that meet the unique needs of our clients.
         </Typography>
         <IconList />

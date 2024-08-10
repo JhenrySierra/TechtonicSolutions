@@ -16,60 +16,47 @@ const PersonalPortfolio = () => {
             / Core Technologies
           </span>
         </Typography>
-        <div className="flex justify-center mx-auto mt-10 mb-[-4rem] max-w-[1080px] text-left flex-wrap min-w-[480px]">
+        <div className="flex justify-around mx-auto mt-10 mb-[-4rem] max-w-[1080px] flex-wrap min-w-[300px]">
           <TechnologiesItem
             icon="https://cdn.iconscout.com/icon/free/png-512/free-javascript-1-225993.png?f=webp&w=256"
-            title="Javascript"
           />
 
           <TechnologiesItem
             icon="https://cdn.iconscout.com/icon/premium/png-512-thumb/react-9305891-7694090.png?f=webp&w=256"
-            title="React.js"
           />
 
           <TechnologiesItem
             icon="https://cdn.iconscout.com/icon/free/png-512/free-node-js-1174925.png?f=webp&w=256"
-            title="Node.js"
           />
           <TechnologiesItem
             icon="https://cdn.iconscout.com/icon/premium/png-512-thumb/express-js-5379348-4492470.png?f=webp&w=256"
-            title="Express.js"
           />
           <TechnologiesItem
             icon="https://cdn.iconscout.com/icon/free/png-512/free-mongodb-4-1175139.png?f=webp&w=256"
-            title="MongoDB"
           />
           <TechnologiesItem
             icon="https://cdn.iconscout.com/icon/premium/png-512-thumb/html-2752158-2284975.png?f=webp&w=256"
-            title="HTML5"
           />
           <TechnologiesItem
             icon="https://cdn.iconscout.com/icon/free/png-512/free-css3-11-1175239.png?f=webp&w=256"
-            title="CSS3"
           />
           <TechnologiesItem
             icon="https://cdn.iconscout.com/icon/premium/png-512-thumb/wordpress-2752021-2284838.png?f=webp&w=256"
-            title="WordPress"
           />
           <TechnologiesItem
             icon="https://cdn.iconscout.com/icon/premium/png-512-thumb/php-2752101-2284918.png?f=webp&w=256"
-            title="PHP"
           />
           <TechnologiesItem
             icon="https://www.svgrepo.com/show/374118/tailwind.svg"
-            title="Tailwind CSS"
           />
           <TechnologiesItem
             icon="https://cdn.iconscout.com/icon/free/png-512/free-bootstrap-226077.png?f=webp&w=256"
-            title="Bootstrap CSS"
           />
           <TechnologiesItem
             icon="https://cdn.iconscout.com/icon/free/png-512/free-git-17-1175218.png?f=webp&w=256"
-            title="Git"
           />
           <TechnologiesItem
             icon="https://cdn.iconscout.com/icon/free/png-512/free-github-159-721954.png?f=webp&w=256"
-            title="GitHub"
           />
         </div>
       </div>

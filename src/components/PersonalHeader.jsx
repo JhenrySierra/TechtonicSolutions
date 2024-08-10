@@ -9,7 +9,7 @@ const PersonalHeader = () => {
     <div className="flex justify-center flex-wrap flex-wrap-reverse gap-20 items-center mt-[5rem] mb-[10rem]  ">
       <div
         id="personalHeader"
-        className=" w-[40%] min-w-[320px]"
+        className=" w-[40%] min-w-[300px]"
         data-aos="fade-right"
       >
         <Typography
@@ -45,7 +45,7 @@ const PersonalHeader = () => {
           >
             <Badge content="" color="red">
               <Button
-                className="tracking-widest "
+                className="tracking-widest"
                 ripple={true}
                 variant="outlined"
                 color="white"
@@ -66,7 +66,7 @@ const PersonalHeader = () => {
       </div>
       <div
         id="pictureCaseStudy"
-        className=" w-[40%]"
+        className=" w-[60%] md:w-[40%]"
         data-aos="fade-left"
         data-aos-duration="1000"
       >

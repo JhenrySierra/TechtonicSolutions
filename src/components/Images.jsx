@@ -48,7 +48,7 @@ export function PortfolioHeaderImg() {
   export function MyPicture() {
   return (
     <img
-      className=" w-full aspect-square object-cover object-center rounded-[2.5rem]  "
+      className=" w-full aspect-square object-cover object-center rounded-[2.5rem] justify-right "
       src={myPicture}
       alt="avatar"
     />
@@ -57,7 +57,7 @@ export function PortfolioHeaderImg() {
   export function PersonalImg() {
   return (
     <img
-      className=" w-full aspect-square object-cover object-center rounded-[2.5rem]  min-w-[320px]"
+      className=" w-full aspect-square object-cover object-center rounded-[2.5rem]  min-w-[100px]"
       src={personalImg}
       alt="avatar"
     />

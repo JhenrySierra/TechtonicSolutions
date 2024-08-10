@@ -21,7 +21,6 @@ export default function StickyNavBar({ activePath }) {
     { path: "/portfolio", label: "PORTFOLIO", icon: "photo_library" },
     { path: "/technologies", label: "TECHNOLOGIES", icon: "code" },
     { path: "/pricing", label: "PRICING", icon: "attach_money" },
-    { path: "/jhenrysierra", label: "CEO", icon: "user" },
   ];
 
   const navList = (
@@ -48,8 +47,8 @@ export default function StickyNavBar({ activePath }) {
     <>
       {/* Desktop Navbar */}
       <Navbar className="sticky mx-auto w-[100%] top-0 z-50 bg-dark border-none shadow-none px-4 py-2 lg:px-8 lg:py-4 ">
-        <div className="flex items-center justify-between w-[100%]">
-          <Logo className="h-20 rounded-lg object-cover object-center mx-[7rem] " />
+        <div className="flex items-center justify-between w-[100%] ">
+          <Logo className="h-20 rounded-lg object-cover object-center  " />
           <div className="flex items-center gap-4 hidden lg:flex">
             <div className="mr-4  ">{navList}</div>
             <Link
@@ -72,7 +71,7 @@ export default function StickyNavBar({ activePath }) {
 
       {/* Mobile Floating NavBar */}
 
-      <div className="fixed bottom-0 left-0 right-0 z-50 bg-[#464646] py-3 flex justify-around items-center lg:hidden">
+      <div className="fixed bottom-0 left-0 right-0 z-50 bg-[#464646] py-3 pb-8 flex justify-around items-center lg:hidden">
         {navItems.map(({ path, icon }) => (
           <Link to={path} key={path}>
             <IconButton

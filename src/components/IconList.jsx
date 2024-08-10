@@ -10,7 +10,7 @@ const IconList = () => {
         <li className="flex items-center space-x-2">
           <i className="fas fa-check-double text-deep-orange-500"></i>
           <span className="text-white tracking-widest">
-            We ensure your website functions optimally.
+            We ensure your software functions optimally.
           </span>
         </li>
         <li className="flex items-center space-x-2">
