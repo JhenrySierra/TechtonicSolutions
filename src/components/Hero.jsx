@@ -32,7 +32,7 @@ function HeroSection16() {
           <Typography
             variant="paragraph"
             color="white"
-            className="font-black tracking-[3px] mt-[7rem] md:mt-[3.5rem] lg:mt-10 xl:mt-0"
+            className="font-black tracking-[3px] mt-[7rem] md:mt-[3.5rem] lg:mt-10 xl:mt-0 animate__animated animate__fadeInDown"
           >
             TOP{"  "}
             <span className="text-deep-orange-500   leading-snug align-middle">
@@ -43,7 +43,7 @@ function HeroSection16() {
           <Typography
             variant="h1"
             color="white"
-            className="mx-auto my-20 mt-10 w-full leading-snug  !text-2xl lg:max-w-3xl lg:!text-5xl tracking-widest "
+            className="mx-auto my-20 mt-10 w-full leading-snug  !text-2xl lg:max-w-3xl lg:!text-5xl tracking-widest animate__animated animate__fadeInLeft"
           >
             Your Next-Level{"  "}
             <span className="text-deep-orange-500   leading-snug ">
@@ -54,15 +54,18 @@ function HeroSection16() {
           <Typography
             variant="h5"
             color="gray"
-            className=" w-3/4 mx-auto tracking-widest my-5 "
+            className=" w-3/4 mx-auto tracking-widest my-5 animate__animated animate__fadeInRight"
           >
             WHY SETTLE FOR ORDINARY?
           </Typography>
-          <div className="flex justify-center gap-6">
-            <Link to="/portfolio">
+          <div className="flex justify-center gap-6 animate__animated animate__fadeInRight">
+            <Link
+              to="/portfolio"
+              className="animate__animated animate__infinite animate__pulse"
+            >
               <Badge content="6" color="deep-orange">
                 <Button
-                  className="tracking-widest"
+                  className="tracking-widest "
                   ripple={true}
                   variant="outlined"
                   color="white"
@@ -80,7 +83,7 @@ function HeroSection16() {
               Learn More
             </Button>
           </div>
-          <div className="flex justify-center mt-40 mx-auto">
+          <div className="flex justify-center mt-40 mx-auto animate__animated animate__fadeInDown animate__infinite">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

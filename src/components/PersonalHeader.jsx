@@ -7,7 +7,11 @@ import { HashLink as Link } from "react-router-hash-link";
 const PersonalHeader = () => {
   return (
     <div className="flex justify-center flex-wrap flex-wrap-reverse gap-20 items-center mt-[5rem] mb-[10rem]  ">
-      <div id="personalHeader" className=" w-[40%] min-w-[320px]">
+      <div
+        id="personalHeader"
+        className=" w-[40%] min-w-[320px]"
+        data-aos="fade-right"
+      >
         <Typography
           variant="paragraph"
           color="white"
@@ -35,18 +39,21 @@ const PersonalHeader = () => {
           JavaScript | TypeScript | NodeJs | Techtonic Solutions
         </Typography>
         <div className="flex justify-center gap-6 mt-10">
-          <Badge content="" color="red">
-            <Link to="/jhenrysierra#portfolioItems" className="text-white">
+          <Link
+            to="/jhenrysierra#portfolioItems"
+            className="text-white animate__animated animate__infinite animate__pulse"
+          >
+            <Badge content="" color="red">
               <Button
-                className="tracking-widest"
+                className="tracking-widest "
                 ripple={true}
                 variant="outlined"
                 color="white"
               >
                 VIEW MY WORK
               </Button>
-            </Link>
-          </Badge>
+            </Badge>
+          </Link>
           <Button
             className="tracking-widest"
             ripple={true}
@@ -57,7 +64,12 @@ const PersonalHeader = () => {
           </Button>
         </div>
       </div>
-      <div id="pictureCaseStudy" className=" w-[40%]">
+      <div
+        id="pictureCaseStudy"
+        className=" w-[40%]"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+      >
         <PersonalImg />
       </div>
     </div>

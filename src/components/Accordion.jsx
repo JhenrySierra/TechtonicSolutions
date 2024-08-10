@@ -18,11 +18,12 @@ export function DefaultAccordion() {
           color="white"
           variant="h3"
           className="text-center mb-10 tracking-widest"
+          data-aos="zoom-in-down"
         >
           Frequently Asked Questions
         </Typography>
 
-        <Accordion open={open === 1}>
+        <Accordion open={open === 1} data-aos="zoom-in-up">
           <AccordionHeader
             className="text-white accordionHeader tracking-widest font-thin hover:text-deep-orange"
             onClick={() => handleOpen(1)}
@@ -35,7 +36,7 @@ export function DefaultAccordion() {
             Finally, we revise the website and launch it.
           </AccordionBody>
         </Accordion>
-        <Accordion open={open === 2}>
+        <Accordion open={open === 2} data-aos="zoom-in-up">
           <AccordionHeader
             className="text-white accordionHeader tracking-widest font-thin hover:text-deep-orange"
             onClick={() => handleOpen(2)}
@@ -47,7 +48,7 @@ export function DefaultAccordion() {
             fee.
           </AccordionBody>
         </Accordion>
-        <Accordion open={open === 3}>
+        <Accordion open={open === 3} data-aos="zoom-in-up">
           <AccordionHeader
             className="text-white accordionHeader tracking-widest font-thin hover:text-deep-orange"
             onClick={() => handleOpen(3)}
@@ -60,7 +61,7 @@ export function DefaultAccordion() {
             estimated timeline during our initial consultation.
           </AccordionBody>
         </Accordion>
-        <Accordion open={open === 4}>
+        <Accordion open={open === 4} data-aos="zoom-in-up">
           <AccordionHeader
             className="text-white accordionHeader tracking-widest font-thin hover:text-deep-orange"
             onClick={() => handleOpen(4)}
@@ -73,7 +74,7 @@ export function DefaultAccordion() {
             available as an add-on service.
           </AccordionBody>
         </Accordion>
-        <Accordion open={open === 5}>
+        <Accordion open={open === 5} data-aos="zoom-in-up">
           <AccordionHeader
             className="text-white accordionHeader tracking-widest font-thin hover:text-deep-orange"
             onClick={() => handleOpen(5)}

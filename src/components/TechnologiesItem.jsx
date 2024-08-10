@@ -10,12 +10,8 @@ import {
 
 const TechnologiesItem = ({ icon, title, date, category, buttonLabel, color }) => {
   return (
-    <Card className="w-1/1 bg-white/0 px-5 py-5 ">
-      <img
-        src={icon}
-        alt={title}
-        className="w-[50px] h-[50px] ml-5"
-      />
+    <Card className="w-1/1 bg-white/0 px-5 py-5 " data-aos="zoom-in">
+      <img src={icon} alt={title} className="w-[50px] h-[50px] ml-5" />
       <CardBody>
         <Typography variant="h6" color="white" className="tracking-widest mb-0">
           {title}

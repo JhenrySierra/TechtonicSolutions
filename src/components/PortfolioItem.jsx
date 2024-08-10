@@ -13,10 +13,11 @@ const HoverCard = ({ img, title, shortDescription, path }) => {
     <a
       href={path}
       target="_blank"
-      rel="noopener noreferrer min-w-[310px]"
-      className=" w-1/4 min-w-[310px]"
+      rel="noopener noreferrer "
+      className=" w-1/3 min-w-[310px]"
+      data-aos="fade-up"
     >
-      <Card className="mt-6  bg-transparent transition-transform duration-300 ease-in-out transform hover:scale-105 hover:bg-gray-800 hover:bg-opacity-50 hover:border hover:border-deep-orange-500 ">
+      <Card className="mt-10  bg-transparent transition-transform duration-300 ease-in-out transform hover:scale-105 hover:bg-gray-800 hover:bg-opacity-50 hover:border hover:border-deep-orange-500 ">
         <CardHeader color="transparent" className="relative h-100">
           <img src={img} alt="card-image" className="rounded-t-lg" />
         </CardHeader>

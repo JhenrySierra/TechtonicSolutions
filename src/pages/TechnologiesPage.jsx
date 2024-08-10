@@ -10,7 +10,12 @@ const TechnologiesPage = () => {
   return (
     <>
       <TechnologiesHero />
-      <Typography variant="h3" color="white" className="text-center">
+      <Typography
+        variant="h3"
+        color="white"
+        className="text-center"
+        data-aos="fade-up"
+      >
         Core Technologies
       </Typography>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mx-auto mt-10">
@@ -59,7 +64,12 @@ const TechnologiesPage = () => {
           color="green"
         />
       </div>
-      <Typography variant="h3" color="white" className="text-center">
+      <Typography
+        variant="h3"
+        color="white"
+        className="text-center"
+        data-aos="fade-right"
+      >
         Supporting Technologies
       </Typography>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mx-auto mt-10">
@@ -114,7 +124,12 @@ const TechnologiesPage = () => {
           color="blue"
         />
       </div>
-      <Typography variant="h3" color="white" className="text-center">
+      <Typography
+        variant="h3"
+        color="white"
+        className="text-center"
+        data-aos="fade-right"
+      >
         Tools and Platforms
       </Typography>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mx-auto mt-10">
@@ -136,7 +151,7 @@ const TechnologiesPage = () => {
           color="black"
         />
       </div>
-      <DefaultAccordion/>
+      <DefaultAccordion />
     </>
   );
 };

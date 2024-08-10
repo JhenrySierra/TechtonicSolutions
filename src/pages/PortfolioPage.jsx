@@ -9,7 +9,7 @@ const PortfolioPage = () => {
   return (
     <>
       <PortfolioHeader />
-      <div className="flex justify-center mt-40 mb-40 mx-auto">
+      <div className="flex justify-center mt-40 mb-40 mx-auto animate__animated animate__fadeInDown animate__infinite">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -29,12 +29,13 @@ const PortfolioPage = () => {
         variant="h2"
         color="white"
         className="text-center mb-20 tracking-[3px] "
+        data-aos="fade-down"
       >
         {" "}
         Showcase of{" "}
         <span className="text-deep-orange-500 align-middle">Sucess </span>
       </Typography>
-      <div className="flex flex-wrap gap-10 justify-center mx-auto max-w-[1080px]">
+      <div className="flex flex-wrap gap- justify-around mx-auto max-w-[1440px]">
         <PortfolioItem
           title="TechTonic Solutions"
           shortDescription="We designed and developed the official TECHTONIC Solutions website, showcasing our innovative services, team expertise, and successful projects."

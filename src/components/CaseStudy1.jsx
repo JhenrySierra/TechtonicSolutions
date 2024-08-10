@@ -8,10 +8,13 @@ import { LightbulbImg } from "./Images.jsx";
 const CaseStudy1 = () => {
   return (
     <div className="flex justify-center gap-20 items-center mt-[10rem] mb-[10rem] flex-wrap">
-      <div id="caseStudy1" className=" w-[40%] min-w-[310px]">
+      <div
+        id="caseStudy1"
+        className=" w-[40%] min-w-[310px]"
+        data-aos="fade-right"
+      >
         <Typography
           variant="paragraph"
-          
           className="tracking-[4px] text-deep-orange-500 font-extrabold"
         >
           BEST WEBSITE AGENCY IN LATAM
@@ -38,7 +41,11 @@ const CaseStudy1 = () => {
         </Typography>
         <IconList />
       </div>
-      <div id="pictureCaseStudy" className=" w-[40%] min-w-[320px]">
+      <div
+        id="pictureCaseStudy"
+        className=" w-[40%] min-w-[320px]"
+        data-aos="fade-left"
+      >
         <LightbulbImg />
       </div>
     </div>

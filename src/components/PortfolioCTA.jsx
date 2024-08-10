@@ -5,7 +5,10 @@ import { Link } from "react-router-dom";
 
 const PortfolioCTA = () => {
   return (
-    <div className="flex justify-center items-center mt-[5rem] mb-[10rem] border border-deep-orange-500 w-[98%] md-w-[100%] py-5 md:py-10 rounded-xl mx-auto flex-wrap">
+    <div
+      data-aos="zoom-out"
+      className="flex justify-center items-center mt-[5rem] mb-[10rem] border border-deep-orange-500 w-[98%] md-w-[100%] py-5 md:py-10 rounded-xl mx-auto flex-wrap"
+    >
       <div id="portfolioCTA" className=" w-[60%]  text-center min-w-[310px] ">
         <Typography
           variant="paragraph"
@@ -39,12 +42,12 @@ const PortfolioCTA = () => {
           here to assist you every step of the way.
         </Typography>
         <div className="flex justify-center gap-6 mt-10 ">
-          <Badge content="" color="red">
             <Link
               to="https://calendar.app.google/x3tPFtCAVSf6oaBy7"
-              className="text-white"
+              className="text-white animate__animated animate__infinite animate__pulse"
               target="_blank"
             >
+          <Badge content="" color="red">
               <Button
                 className="tracking-widest"
                 ripple={true}
@@ -54,8 +57,8 @@ const PortfolioCTA = () => {
               >
                 Schedule Free consultation
               </Button>
-            </Link>
           </Badge>
+            </Link>
           <Button
             className="tracking-widest"
             ripple={true}

@@ -74,7 +74,7 @@ const PersonalPortfolio = () => {
         </div>
       </div>
       <div
-        className="flex justify-center mt-20 mb-20 mx-auto"
+        className="flex justify-center mt-20 mb-20 mx-auto animate__animated animate__infinite animate__bounce"
         id="portfolioItems"
       >
         <svg
@@ -96,12 +96,13 @@ const PersonalPortfolio = () => {
         variant="h2"
         color="white"
         className="text-center mb-20 tracking-[3px] "
+        data-aos="fade-down"
       >
         {" "}
         Showcase of{" "}
         <span className="text-deep-orange-500 align-middle">Sucess </span>
       </Typography>
-      <div className="flex flex-wrap gap-10 justify-center mx-auto">
+      <div className="flex flex-wrap justify-center mx-auto">
         <PortfolioItem
           title="TechTonic Solutions"
           shortDescription="We designed and developed the official TECHTONIC Solutions website, showcasing our innovative services, team expertise, and successful projects."

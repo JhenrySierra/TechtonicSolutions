@@ -13,7 +13,7 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 const ServiceCard = ({ icon, title, date, category, buttonLabel, color }) => {
   return (
-    <Card className=" w-1/1 bg-white/0 px-5 py-5 ">
+    <Card className=" w-1/1 bg-white/0 px-5 py-5 " data-aos="fade-right">
       <FontAwesomeIcon
         icon={icon}
         className="w-[50px] h-[50px] ml-5"

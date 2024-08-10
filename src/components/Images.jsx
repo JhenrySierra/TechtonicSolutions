@@ -8,7 +8,7 @@ import personalImg from "../assets/img/personalImg.png"
 export  function HeroImg() {
   return (
     <img
-      className=" w-full rounded-lg object-cover object-center heroImg "
+      className=" w-full rounded-lg object-cover object-center heroImg animate__animated animate__fadeInDown "
       src={hero}
       alt="heroImg"
     />

@@ -7,10 +7,14 @@ import { Link } from "react-router-dom";
 const HomeCTA = () => {
   return (
     <div className="flex justify-center gap-20 items-center mt-[5rem] mb-[5rem] flex-wrap mx auto flex-wrap-reverse">
-      <div id="pictureCaseStudy" className=" w-[20%] min-w-[300px]">
+      <div
+        id="pictureCaseStudy"
+        className=" w-[20%] min-w-[300px]"
+        data-aos="fade-right"
+      >
         <CtaIMG />
       </div>
-      <div id="HomeCTA" className=" w-[40%] min-w-[320px]">
+      <div id="HomeCTA" className=" w-[40%] min-w-[320px]" data-aos="fade-left">
         <Typography
           variant="paragraph"
           color="white"
@@ -39,7 +43,10 @@ const HomeCTA = () => {
           or want to get in touch with us directly, we’re here to help.
         </Typography>
         <div className="flex justify-center gap-6 mt-10">
-          <Link to="/portfolio">
+          <Link
+            to="/portfolio"
+            className="animate__animated animate__infinite animate__pulse"
+          >
             <Badge content="6" color="deep-orange">
               <Button
                 className="tracking-widest"

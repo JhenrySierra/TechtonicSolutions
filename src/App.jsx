@@ -13,9 +13,13 @@ import PricingPage from "./pages/PricingPage";
 import { FooterWithSitemap } from "./components/Footer";
 import PersonalPortfolio from "./pages/PersonalPortfolio";
 import "../src/index.css"
+import "animate.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
-  return (
+  AOS.init()
+    return (
     <Router>
       <MainLayout />
     </Router>
@@ -25,7 +29,6 @@ function App() {
 function MainLayout() {
   const location = useLocation();
   const currentPath = location.pathname;
-
   return (
     <div>
       <StickyNavBar activePath={currentPath} />

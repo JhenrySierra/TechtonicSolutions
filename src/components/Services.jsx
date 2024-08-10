@@ -12,12 +12,13 @@ import {
 
 export default function Services() {
   return (
-    <div className=" mx-auto servicesSection tracking-wide" >
+    <div className=" mx-auto servicesSection tracking-wide">
       <div className="ourServices ">
         <Typography
           variant="h4"
           color="white"
           className="flex justify-center mx-auto my-6 w-full leading-snug  !text-2xl lg:max-w-3xl lg:!text-5xl tracking-widest"
+          data-aos="fade-down"
         >
           Discover Our Services
         </Typography>

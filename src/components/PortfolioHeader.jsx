@@ -7,7 +7,11 @@ import { Link } from "react-router-dom";
 const PortfolioHeader = () => {
   return (
     <div className="flex justify-center gap-20 items-center mt-[5rem] mb-[10rem] flex-wrap">
-      <div id="portfolioHeader" className=" w-[40%] min-w-[310px]" >
+      <div
+        id="portfolioHeader"
+        className=" w-[40%] min-w-[310px]"
+        data-aos="fade-right"
+      >
         <Typography
           variant="paragraph"
           color="white"
@@ -37,12 +41,12 @@ const PortfolioHeader = () => {
           project.
         </Typography>
         <div className="flex justify-center gap-6 mt-10">
-          <Badge content="" color="red">
             <Link
               to="https://calendar.app.google/x3tPFtCAVSf6oaBy7"
-              className="text-white"
+              className="text-white animate__animated animate__infinite animate__pulse"
               target="_blank"
             >
+          <Badge content="" color="red">
               <Button
                 className="tracking-widest"
                 ripple={true}
@@ -51,8 +55,8 @@ const PortfolioHeader = () => {
               >
                 FREE CONSULTATION
               </Button>
-            </Link>
           </Badge>
+            </Link>
           <Button
             className="tracking-widest"
             ripple={true}
@@ -63,7 +67,7 @@ const PortfolioHeader = () => {
           </Button>
         </div>
       </div>
-      <div id="pictureCaseStudy" className=" w-[40%]">
+      <div id="pictureCaseStudy" className=" w-[40%]" data-aos="fade-left">
         <PortfolioHeaderImg />
       </div>
     </div>

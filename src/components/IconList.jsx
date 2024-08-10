@@ -27,7 +27,10 @@ const IconList = () => {
         </li>
       </ul>
       <div className="flex justify-center gap-6 mt-10">
-        <Link to="/portfolio">
+        <Link
+          to="/portfolio"
+          className="animate__animated animate__infinite animate__pulse"
+        >
           <Badge content="6" color="deep-orange">
             <Button
               className="tracking-widest"
@@ -45,7 +48,7 @@ const IconList = () => {
           variant="filled"
           color="deep-orange"
         >
-          Let's  Talk
+          Let's Talk
         </Button>
       </div>
     </div>
