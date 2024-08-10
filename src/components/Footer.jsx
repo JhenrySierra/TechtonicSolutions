@@ -1,5 +1,6 @@
 import { Typography } from "@material-tailwind/react";
 import { Logo } from "./Logo";
+import { Link } from "react-router-dom";
 
 const SITEMAP = [
   {
@@ -58,8 +59,12 @@ export function FooterWithSitemap() {
             variant="small"
             className="mb-4 text-center font-normal text-white opacity-50 md:mb-0"
           >
-            &copy; {currentYear} <a href="/jhenrysierra">TECHTONIC Solutions</a>. All Rights
-            Reserved.
+            &copy; {currentYear}{" "}
+            <Link to="/jhenrysierra">
+              {" "}
+              TECHTONIC Solutions
+            </Link>
+            . All Rights Reserved.
           </Typography>
           <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
             <Typography
