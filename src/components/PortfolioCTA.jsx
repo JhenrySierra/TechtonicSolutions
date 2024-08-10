@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const PortfolioCTA = () => {
   return (
     <div
-      data-aos="zoom-out"
+      data-aos="zoom-in"
       className="flex justify-center items-center mt-[5rem] mb-[10rem] border border-deep-orange-500 w-[98%] md-w-[100%] py-5 md:py-10 rounded-xl mx-auto flex-wrap"
     >
       <div id="portfolioCTA" className=" w-[60%]  text-center min-w-[310px] ">

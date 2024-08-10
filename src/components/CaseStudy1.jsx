@@ -43,8 +43,7 @@ const CaseStudy1 = () => {
       </div>
       <div
         id="pictureCaseStudy"
-        className=" w-[40%] min-w-[320px]"
-        data-aos="fade-left"
+        className=" w-[40%] min-w-[300px]"
       >
         <LightbulbImg />
       </div>

@@ -29,6 +29,7 @@ function App() {
 function MainLayout() {
   const location = useLocation();
   const currentPath = location.pathname;
+
   return (
     <div>
       <StickyNavBar activePath={currentPath} />
