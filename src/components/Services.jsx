@@ -23,7 +23,7 @@ export default function Services() {
           Discover Our Services
         </Typography>
       </div>
-      <div className=" grid grid-cols-1 md:grid-cols-3 gap-12 mx-auto mt-10  ">
+      <div className=" grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12 mx-auto mt-10  ">
         <ServiceCard
           icon={faLaptopCode}
           title="Design and Development"

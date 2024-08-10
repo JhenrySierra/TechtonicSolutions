@@ -9,12 +9,11 @@ const HomeCTA = () => {
     <div className="flex justify-center gap-20 items-center mt-[5rem] mb-[5rem] flex-wrap mx auto flex-wrap-reverse">
       <div
         id="pictureCaseStudy"
-        className=" w-[20%] min-w-[300px]"
-        data-aos="fade-right"
+        className=" md:w-[20%] min-w-[300px]"
       >
         <CtaIMG />
       </div>
-      <div id="HomeCTA" className=" w-[40%] min-w-[320px]" data-aos="fade-left">
+      <div id="HomeCTA" className=" md:w-[40%] min-w-[300px] p-3" >
         <Typography
           variant="paragraph"
           color="white"

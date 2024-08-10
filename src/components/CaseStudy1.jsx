@@ -10,12 +10,12 @@ const CaseStudy1 = () => {
     <div className="flex justify-center gap-20 items-center mt-[10rem] mb-[10rem] flex-wrap">
       <div
         id="caseStudy1"
-        className=" w-[40%] min-w-[310px]"
+        className=" md:w-[40%] min-w-[300px] p-2"
         data-aos="fade-right"
       >
         <Typography
           variant="paragraph"
-          className="tracking-[4px] text-deep-orange-500 font-extrabold"
+          className="tracking-[4px] text-deep-orange-500 font-extrabold "
         >
           BEST WEBSITE AGENCY IN LATAM
         </Typography>

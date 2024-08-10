@@ -25,7 +25,7 @@ function HeroSection16() {
 
   return (
     <>
-      <div className=" hero grid mt-20 mb-[25rem] min-h-[42vh] w-full lg:h-[40rem] md:h-[34rem]   bg-top bg-contain bg-no-repeat">
+      <div className=" hero grid mt-20 mb-[5rem] md:mb-[25rem] min-h-[42vh] w-full lg:h-[40rem] md:h-[34rem]   bg-top bg-contain bg-no-repeat">
         <div className="container mx-auto px-4 text-center ">
           <HeroImg />
 

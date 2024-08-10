@@ -13,7 +13,7 @@ export function DefaultAccordion() {
  
   return (
     <>
-      <div className="w-[70%] mx-auto mb-[10rem] mt-[10rem] flex-wrap min-w-[310px]">
+      <div className="md:w-[70%] mx-auto mb-[10rem] mt-[10rem] flex-wrap min-w-[280px] p-4">
         <Typography
           color="white"
           variant="h3"

@@ -13,14 +13,21 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 const ServiceCard = ({ icon, title, date, category, buttonLabel, color }) => {
   return (
-    <Card className=" w-1/1 bg-white/0 px-5 py-5 " data-aos="fade-right">
+    <Card
+      className=" w-1/1 bg-white/0 px-0 py-0 md:px-5 md:py-5 "
+      data-aos="fade-right"
+    >
       <FontAwesomeIcon
         icon={icon}
         className="w-[50px] h-[50px] ml-5"
         color={color}
       />
-      <CardBody>
-        <Typography variant="h6" color="white" className="tracking-widest mb-0">
+      <CardBody className="p-3 md:p-6">
+        <Typography
+          variant="h6"
+          color="white"
+          className="tracking-widest mb-0 p-0"
+        >
           {title}
         </Typography>
         <Typography color="deep-orange" className="mb-2">
@@ -28,7 +35,7 @@ const ServiceCard = ({ icon, title, date, category, buttonLabel, color }) => {
         </Typography>
         <Typography color="gray">{category}</Typography>
       </CardBody>
-      <CardFooter className="pt-0">
+      <CardFooter className="pt-0 pb-0 ">
         <Button variant="text" className="flex items-center gap-2 text-white ">
           Learn More{" "}
           <svg
