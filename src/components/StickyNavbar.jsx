@@ -95,7 +95,7 @@ export default function StickyNavBar({ activePath }) {
 
       {/* Toggleable content for the floating button */}
       {openNav && (
-        <div className="fixed bottom-14 left-0 right-0 bg-dark z-40 p-4">
+        <div className="fixed bottom-20 left-0 right-0 bg-dark z-40 p-4 animate__animated animate__fadeInUp">
           <Link to="/contact" className="text-white">
             <Button
               ripple={true}
@@ -110,7 +110,7 @@ export default function StickyNavBar({ activePath }) {
           <Link to="/jhenrysierra" className="text-white">
             <Button
               ripple={true}
-              variant="outlined"
+              variant="filled"
               color="white"
               className="w-full mt-2"
               target="_blank"
