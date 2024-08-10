@@ -21,6 +21,7 @@ export default function StickyNavBar({ activePath }) {
     { path: "/portfolio", label: "PORTFOLIO", icon: "photo_library" },
     { path: "/technologies", label: "TECHNOLOGIES", icon: "code" },
     { path: "/pricing", label: "PRICING", icon: "attach_money" },
+    { path: "/jhenrysierra", label: "CEO", icon: "user" },
   ];
 
   const navList = (
@@ -105,6 +106,17 @@ export default function StickyNavBar({ activePath }) {
               target="_blank"
             >
               FREE CONSULTATION
+            </Button>
+          </Link>
+          <Link to="/jhenrysierra" className="text-white">
+            <Button
+              ripple={true}
+              variant="outlined"
+              color="white"
+              className="w-full mt-2"
+              target="_blank"
+            >
+              Jhenry Sierra
             </Button>
           </Link>
         </div>
