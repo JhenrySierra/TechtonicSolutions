@@ -4,7 +4,7 @@ import { Logo } from "./Logo";
 const SITEMAP = [
   {
     title: "Company",
-    links: ["About Us", "Portfolio", "Technologies", "Pricing"],
+    links: ["About Us", "Portfolio", "Technologies", "Pricing", "Jhenry Sierra"],
   },
   {
     title: "Help Center",
@@ -58,7 +58,7 @@ export function FooterWithSitemap() {
             variant="small"
             className="mb-4 text-center font-normal text-white opacity-50 md:mb-0"
           >
-            &copy; {currentYear} <a href="">TECHTONIC Solutions</a>. All Rights
+            &copy; {currentYear} <a href="/jhenrysierra">TECHTONIC Solutions</a>. All Rights
             Reserved.
           </Typography>
           <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
