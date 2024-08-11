@@ -1,0 +1,24 @@
+{
+  "name": "TECHTONIC",
+  "short_name": "TECHTONIC Solutions Website",
+  "description": "Portfolio made with React JS, to showcase the services available as well as past projects for TECHTONIC Solutions.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/assets/img/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "scope": "/",
+  "lang": "en-US"
+}
