@@ -19,8 +19,8 @@ export default function StickyNavBar({ activePath }) {
   const navItems = [
     { path: "/", label: "HOME", icon: "home" },
     { path: "/portfolio", label: "PORTFOLIO", icon: "photo_library" },
-    { path: "/technologies", label: "TECHNOLOGIES", icon: "code" },
-    { path: "/pricing", label: "PRICING", icon: "attach_money" },
+    { path: "/technologies", label: "TECH", icon: "code" },
+    { path: "/jhenrysierra", label: "CEO", icon: "person" },
   ];
 
   const navList = (
@@ -71,12 +71,16 @@ export default function StickyNavBar({ activePath }) {
 
       {/* Mobile Floating NavBar */}
 
-      <div className="fixed bottom-0 left-0 right-0 z-50 bg-[#464646] py-3 pb-8 flex justify-around items-center lg:hidden">
-        {navItems.map(({ path, icon }) => (
-          <Link to={path} key={path}>
+      <div className="fixed bottom-0 left-0 right-0 z-50 bg-[#464646] py-3 pb-8 flex justify-around items-center lg:hidden w-[100%]">
+        {navItems.map(({ path, icon, label }) => (
+          <Link
+            to={path}
+            key={path}
+            className="flex wrap  max-w-[100px] w-1/5 flex-col justify-center text-center"
+          >
             <IconButton
               variant="text"
-              className={`text-white ${
+              className={`text-white   ${
                 activePath === path ? "text-deep-orange-500" : ""
               }`}
             >
@@ -84,38 +88,33 @@ export default function StickyNavBar({ activePath }) {
             </IconButton>
           </Link>
         ))}
-        <IconButton
-          variant="filled"
-          color="deep-orange"
-          onClick={() => setOpenNav(!openNav)}
-        >
-          <span className="material-icons">keyboard_control_key</span>
-        </IconButton>
+        <Link className="flex wrap  flex-col justify-center text-center">
+          <IconButton
+            variant="text"
+            color="deep-orange"
+            className=""
+            onClick={() => setOpenNav(!openNav)}
+          >
+            <span className="material-icons ">keyboard_control_key</span>
+          </IconButton>
+        </Link>
       </div>
 
       {/* Toggleable content for the floating button */}
       {openNav && (
-        <div className="fixed bottom-20 left-0 right-0 bg-dark z-40 p-4 animate__animated animate__fadeInUp">
-          <Link to="/contact" className="text-white">
+        <div className="fixed bottom-20 mb-5 left-0 right-0 bg-dark z-40 p-4 animate__animated animate__fadeInUp">
+          <Link
+            to="https://calendar.app.google/x3tPFtCAVSf6oaBy7"
+            className="text-white"
+          >
             <Button
               ripple={true}
               variant="filled"
               color="deep-orange"
-              className="w-full"
+              className="w-full "
               target="_blank"
             >
               FREE CONSULTATION
-            </Button>
-          </Link>
-          <Link to="/jhenrysierra" className="text-white">
-            <Button
-              ripple={true}
-              variant="filled"
-              color="white"
-              className="w-full mt-2"
-              target="_blank"
-            >
-              Jhenry Sierra
             </Button>
           </Link>
         </div>

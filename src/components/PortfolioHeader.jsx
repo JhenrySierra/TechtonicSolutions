@@ -67,7 +67,7 @@ const PortfolioHeader = () => {
           </Button>
         </div>
       </div>
-      <div id="pictureCaseStudy" className=" w-[40%]" data-aos="fade-left">
+      <div id="pictureCaseStudy" className=" w-[40%]" >
         <PortfolioHeaderImg />
       </div>
     </div>
