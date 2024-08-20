@@ -21,7 +21,6 @@ export default function StickyNavBar({ activePath }) {
     { path: "/portfolio", label: "PORTFOLIO", icon: "photo_library" },
     { path: "/technologies", label: "TECH", icon: "code" },
     { path: "/jhenrysierra", label: "CEO", icon: "person" },
-    { path: "/contact", label: "CONTACT", icon: "person" },
   ];
 
   const navList = (
@@ -52,6 +51,11 @@ export default function StickyNavBar({ activePath }) {
           <Logo className="h-20 rounded-lg object-cover object-center  " />
           <div className="flex items-center gap-4 hidden lg:flex">
             <div className="mr-4  ">{navList}</div>
+            <Link
+              to="/contact"
+              className="text-white mr-4"
+            >CONTACT
+            </Link>
             <Link
               to="https://calendar.app.google/x3tPFtCAVSf6oaBy7"
               className="text-white"
