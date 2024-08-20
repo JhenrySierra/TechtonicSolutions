@@ -16,6 +16,7 @@ import "../src/index.css"
 import "animate.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ContactUs from "./pages/ContactUs"
 
 function App() {
   AOS.init()
@@ -39,6 +40,7 @@ function MainLayout() {
         <Route path="/technologies" element={<TechnologiesPage />} />
         <Route path="/pricing" element={<PricingPage />} />
         <Route path="/jhenrysierra" element={<PersonalPortfolio />} />
+        <Route path="/contact" element={<ContactUs />} />
       </Routes>
       <FooterWithSitemap />
     </div>

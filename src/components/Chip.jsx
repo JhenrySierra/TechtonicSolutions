@@ -17,12 +17,12 @@ export function ChipWithAvatar() {
         <Typography
           variant="small"
           color="white"
-          className="font-medium capitalize leading-none color-blue"
+          className="text-[12px] capitalize leading-none color-blue"
         >
           Jhenry Sierra
         </Typography>
       }
-      className="rounded-full py-1.5 mb-2 w-[50%]"
+      className="rounded-full py-1.5 mb-2 w-[51%]"
     />
   );
 }

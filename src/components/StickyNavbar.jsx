@@ -21,6 +21,7 @@ export default function StickyNavBar({ activePath }) {
     { path: "/portfolio", label: "PORTFOLIO", icon: "photo_library" },
     { path: "/technologies", label: "TECH", icon: "code" },
     { path: "/jhenrysierra", label: "CEO", icon: "person" },
+    { path: "/contact", label: "CONTACT", icon: "person" },
   ];
 
   const navList = (
@@ -102,10 +103,10 @@ export default function StickyNavBar({ activePath }) {
 
       {/* Toggleable content for the floating button */}
       {openNav && (
-        <div className="fixed bottom-20 mb-5 left-0 right-0 bg-dark z-40 p-4 animate__animated animate__fadeInUp">
+        <div className="fixed bottom-20 gap-3 mb-5 left-0 right-0 bg-dark z-40 p-4 animate__animated animate__fadeInUp">
           <Link
             to="https://calendar.app.google/x3tPFtCAVSf6oaBy7"
-            className="text-white"
+            className="text-white mb-3"
           >
             <Button
               ripple={true}
@@ -115,6 +116,16 @@ export default function StickyNavBar({ activePath }) {
               target="_blank"
             >
               FREE CONSULTATION
+            </Button>
+          </Link>
+          <Link to="/contact" className="text-white mt-3">
+            <Button
+              ripple={true}
+              variant="filled"
+              color="white"
+              className="w-full mt-3 "
+            >
+              Contact Us
             </Button>
           </Link>
         </div>
