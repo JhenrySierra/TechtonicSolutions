@@ -60,14 +60,16 @@ const TecnologiesHero = () => {
               </Button>
             </Link>
           </Badge>
-          <Button
-            className="tracking-widest"
-            ripple={true}
-            variant="filled"
-            color="deep-orange"
-          >
-            Contact Us
-          </Button>
+          <Link to="/contact">
+            <Button
+              className="tracking-widest"
+              ripple={true}
+              variant="filled"
+              color="deep-orange"
+            >
+              Contact Us
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

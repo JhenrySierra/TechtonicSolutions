@@ -54,14 +54,16 @@ const PersonalHeader = () => {
               </Button>
             </Badge>
           </Link>
-          <Button
-            className="tracking-widest"
-            ripple={true}
-            variant="filled"
-            color="deep-orange"
-          >
-            Contact Me
-          </Button>
+          <Link to="/contact">
+            <Button
+              className="tracking-widest"
+              ripple={true}
+              variant="filled"
+              color="deep-orange"
+            >
+              Contact Me
+            </Button>
+          </Link>
         </div>
       </div>
       <div

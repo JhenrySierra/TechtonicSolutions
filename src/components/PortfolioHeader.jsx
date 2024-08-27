@@ -41,12 +41,12 @@ const PortfolioHeader = () => {
           project.
         </Typography>
         <div className="flex justify-center gap-6 mt-10">
-            <Link
-              to="https://calendar.app.google/x3tPFtCAVSf6oaBy7"
-              className="text-white animate__animated animate__infinite animate__pulse"
-              target="_blank"
-            >
-          <Badge content="" color="red">
+          <Link
+            to="https://calendar.app.google/x3tPFtCAVSf6oaBy7"
+            className="text-white animate__animated animate__infinite animate__pulse"
+            target="_blank"
+          >
+            <Badge content="" color="red">
               <Button
                 className="tracking-widest"
                 ripple={true}
@@ -55,19 +55,21 @@ const PortfolioHeader = () => {
               >
                 FREE CONSULTATION
               </Button>
-          </Badge>
-            </Link>
-          <Button
-            className="tracking-widest"
-            ripple={true}
-            variant="filled"
-            color="deep-orange"
-          >
-            Contact Us
-          </Button>
+            </Badge>
+          </Link>
+          <Link to="/contact">
+            <Button
+              className="tracking-widest"
+              ripple={true}
+              variant="filled"
+              color="deep-orange"
+            >
+              Contact Us
+            </Button>
+          </Link>
         </div>
       </div>
-      <div id="pictureCaseStudy" className=" w-[40%]" >
+      <div id="pictureCaseStudy" className=" w-[40%]">
         <PortfolioHeaderImg />
       </div>
     </div>
