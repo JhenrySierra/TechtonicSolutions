@@ -6,7 +6,7 @@ const ContactCard = () => {
   return (
     <div
       data-aos="zoom-in"
-      className="flex justify-center items-center mt-[5rem] mb-[10rem] border border-deep-orange-500 w-[98%] md-w-[100%] px-6 py-5 md:py-10 rounded-xl mx-auto flex-wrap"
+      className="flex justify-center items-center mt-[5rem] mb-[10rem] border border-deep-orange-500 w-[94%] md-w-[100%] px-6 py-5 md:py-10 rounded-xl mx-auto flex-wrap"
     >
       <div id="portfolioCTA" className=" w-[100%]  text-left min-w-[310px] ">
         <Typography
@@ -103,7 +103,7 @@ const ContactCard = () => {
               </a>
             </Typography>
           </div>
-          <Card className="w-[40%] min-w-[300px] max-w-lg mx-auto p-0 bg-black shadow-lg">
+          <Card className="w-[40%] min-w-[280px] max-w-lg mx-auto p-0 bg-black shadow-lg">
             <CardBody>
               <form
                 className="space-y-3"
