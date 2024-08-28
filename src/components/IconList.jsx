@@ -42,14 +42,16 @@ const IconList = () => {
             </Button>
           </Badge>
         </Link>
-        <Button
-          className="tracking-widest"
-          ripple={true}
-          variant="filled"
-          color="deep-orange"
-        >
-          Let's Talk
-        </Button>
+        <Link to="/contact">
+          <Button
+            className="tracking-widest"
+            ripple={true}
+            variant="filled"
+            color="deep-orange"
+          >
+            Let's Talk
+          </Button>
+        </Link>
       </div>
     </div>
   );
