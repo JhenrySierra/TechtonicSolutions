@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import TechnologiesItem from "../components/TechnologiesItem";
 import TechnologiesHero from "../components/TechnologiesHero";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import { faHeart, faCode } from "@fortawesome/free-solid-svg-icons";
 import { Typography } from "@material-tailwind/react";
 import { DefaultAccordion } from "../components/Accordion";
 
 const TechnologiesPage = () => {
+
+   useEffect(() => {
+     window.scrollTo(0, 0);
+   }, []);
   return (
     <>
       <TechnologiesHero />

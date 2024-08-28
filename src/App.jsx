@@ -17,6 +17,7 @@ import "animate.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ContactUs from "./pages/ContactUs"
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   AOS.init()
@@ -34,6 +35,7 @@ function MainLayout() {
   return (
     <div>
       <StickyNavBar activePath={currentPath} />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/portfolio" element={<PortfolioPage />} />
