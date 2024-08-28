@@ -21,7 +21,7 @@ const currentYear = new Date().getFullYear();
 
 export function FooterWithSitemap() {
   return (
-    <footer className="relative w-full ">
+    <footer className="relative w-full mb-12">
       <div className="mx-auto w-full max-w-7xl px-8 ">
         <div className="mx-auto grid w-full grid-cols-2 md:pl-[5rem] gap-8 py-12 md:grid-cols-2 lg:grid-cols-4">
           <Logo className="w-[10rem] items-center  " />
