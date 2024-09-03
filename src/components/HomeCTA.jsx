@@ -7,13 +7,10 @@ import { Link } from "react-router-dom";
 const HomeCTA = () => {
   return (
     <div className="flex justify-center gap-20 items-center mt-[5rem] mb-[5rem] flex-wrap mx auto flex-wrap-reverse">
-      <div
-        id="pictureCaseStudy"
-        className=" md:w-[20%] min-w-[300px]"
-      >
+      <div id="pictureCaseStudy" className=" md:w-[20%] min-w-[300px]">
         <CtaIMG />
       </div>
-      <div id="HomeCTA" className=" md:w-[40%] min-w-[300px] p-3" >
+      <div id="HomeCTA" className=" md:w-[40%] min-w-[300px] p-3">
         <Typography
           variant="paragraph"
           color="white"
@@ -57,14 +54,16 @@ const HomeCTA = () => {
               </Button>
             </Badge>
           </Link>
-          <Button
-            className="tracking-widest"
-            ripple={true}
-            variant="filled"
-            color="deep-orange"
-          >
-            Contact Us
-          </Button>
+          <Link to="/contact">
+            <Button
+              className="tracking-widest"
+              ripple={true}
+              variant="filled"
+              color="deep-orange"
+            >
+              Contact Us
+            </Button>
+          </Link>
         </div>
       </div>
     </div>
