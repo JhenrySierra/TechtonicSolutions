@@ -72,6 +72,12 @@ const PortfolioPage = () => {
           img="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/project_item/attachment/31a754b2434745466cc1551238f8275a-1715385760753/Vibrant%20Health%20_%20Beauty.png"
           path="https://www.vibranthealthandbeauty.com/"
         />
+        <PortfolioItem
+          title="Portfolio / CV Ing. Juan Sierra"
+          shortDescription="We collaborated as theDesign & Development team in the creation of Portfolio / CV for Civil Engineer Juan Sierra, this was made using Bootstrap."
+          img="https://freelancer-bucket.s3.us-east-2.amazonaws.com/projects/Captura+de+pantalla+2024-09-04+194353.png"
+          path="https://jhenrysierra.github.io/ingjuansierra/"
+        />
       </div>
       <PortfolioCTA />
     </>
