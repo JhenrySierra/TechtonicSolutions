@@ -69,7 +69,7 @@ const PortfolioHeader = () => {
           </Link>
         </div>
       </div>
-      <div id="pictureCaseStudy" className=" w-[40%]">
+      <div id="pictureCaseStudy" className=" md:w-[50%]">
         <PortfolioHeaderImg />
       </div>
     </div>
