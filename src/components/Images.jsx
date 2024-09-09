@@ -1,5 +1,5 @@
 import hero from "../assets/img/heroImg.jpg";
-import lightbulb from "../assets/img/lightbulb.png";
+import lightbulb from "../assets/img/lightbulb.jpeg";
 import ctaIMG from "../assets/img/ctaIMG.jpeg";  
 import portfolioHeader from "../assets/img/portfolioHeaderImg.jpeg";
 import myPicture from "../assets/img/avatar.png";
