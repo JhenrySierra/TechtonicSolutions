@@ -75,7 +75,7 @@ const PortfolioPage = () => {
         <PortfolioItem
           title="Portfolio / CV Ing. Juan Sierra"
           shortDescription="We collaborated as theDesign & Development team in the creation of Portfolio / CV for Civil Engineer Juan Sierra, this was made using Bootstrap."
-          img="https://freelancer-bucket.s3.us-east-2.amazonaws.com/projects/Captura+de+pantalla+2024-09-04+194353.png"
+          img="https://freelancer-bucket.s3.us-east-2.amazonaws.com/projects/66bf7d222550762e446d9804-Captura de pantalla 2024-09-09 132750.png"
           path="https://jhenrysierra.github.io/ingjuansierra/"
         />
       </div>
