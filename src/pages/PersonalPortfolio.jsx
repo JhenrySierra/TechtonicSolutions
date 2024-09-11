@@ -17,47 +17,21 @@ const PersonalPortfolio = () => {
           </span>
         </Typography>
         <div className="flex justify-around mx-auto mt-10 mb-[-4rem] max-w-[1080px] flex-wrap min-w-[300px]">
-          <TechnologiesItem
-            icon="https://cdn.iconscout.com/icon/free/png-512/free-javascript-1-225993.png?f=webp&w=256"
-          />
+          <TechnologiesItem icon="https://cdn.iconscout.com/icon/free/png-512/free-javascript-1-225993.png?f=webp&w=256" />
 
-          <TechnologiesItem
-            icon="https://cdn.iconscout.com/icon/premium/png-512-thumb/react-9305891-7694090.png?f=webp&w=256"
-          />
+          <TechnologiesItem icon="https://cdn.iconscout.com/icon/premium/png-512-thumb/react-9305891-7694090.png?f=webp&w=256" />
 
-          <TechnologiesItem
-            icon="https://cdn.iconscout.com/icon/free/png-512/free-node-js-1174925.png?f=webp&w=256"
-          />
-          <TechnologiesItem
-            icon="https://cdn.iconscout.com/icon/premium/png-512-thumb/express-js-5379348-4492470.png?f=webp&w=256"
-          />
-          <TechnologiesItem
-            icon="https://cdn.iconscout.com/icon/free/png-512/free-mongodb-4-1175139.png?f=webp&w=256"
-          />
-          <TechnologiesItem
-            icon="https://cdn.iconscout.com/icon/premium/png-512-thumb/html-2752158-2284975.png?f=webp&w=256"
-          />
-          <TechnologiesItem
-            icon="https://cdn.iconscout.com/icon/free/png-512/free-css3-11-1175239.png?f=webp&w=256"
-          />
-          <TechnologiesItem
-            icon="https://cdn.iconscout.com/icon/premium/png-512-thumb/wordpress-2752021-2284838.png?f=webp&w=256"
-          />
-          <TechnologiesItem
-            icon="https://cdn.iconscout.com/icon/premium/png-512-thumb/php-2752101-2284918.png?f=webp&w=256"
-          />
-          <TechnologiesItem
-            icon="https://www.svgrepo.com/show/374118/tailwind.svg"
-          />
-          <TechnologiesItem
-            icon="https://cdn.iconscout.com/icon/free/png-512/free-bootstrap-226077.png?f=webp&w=256"
-          />
-          <TechnologiesItem
-            icon="https://cdn.iconscout.com/icon/free/png-512/free-git-17-1175218.png?f=webp&w=256"
-          />
-          <TechnologiesItem
-            icon="https://cdn.iconscout.com/icon/free/png-512/free-github-159-721954.png?f=webp&w=256"
-          />
+          <TechnologiesItem icon="https://cdn.iconscout.com/icon/free/png-512/free-node-js-1174925.png?f=webp&w=256" />
+          <TechnologiesItem icon="https://cdn.iconscout.com/icon/premium/png-512-thumb/express-js-5379348-4492470.png?f=webp&w=256" />
+          <TechnologiesItem icon="https://cdn.iconscout.com/icon/free/png-512/free-mongodb-4-1175139.png?f=webp&w=256" />
+          <TechnologiesItem icon="https://cdn.iconscout.com/icon/premium/png-512-thumb/html-2752158-2284975.png?f=webp&w=256" />
+          <TechnologiesItem icon="https://cdn.iconscout.com/icon/free/png-512/free-css3-11-1175239.png?f=webp&w=256" />
+          <TechnologiesItem icon="https://cdn.iconscout.com/icon/premium/png-512-thumb/wordpress-2752021-2284838.png?f=webp&w=256" />
+          <TechnologiesItem icon="https://cdn.iconscout.com/icon/premium/png-512-thumb/php-2752101-2284918.png?f=webp&w=256" />
+          <TechnologiesItem icon="https://www.svgrepo.com/show/374118/tailwind.svg" />
+          <TechnologiesItem icon="https://cdn.iconscout.com/icon/free/png-512/free-bootstrap-226077.png?f=webp&w=256" />
+          <TechnologiesItem icon="https://cdn.iconscout.com/icon/free/png-512/free-git-17-1175218.png?f=webp&w=256" />
+          <TechnologiesItem icon="https://cdn.iconscout.com/icon/free/png-512/free-github-159-721954.png?f=webp&w=256" />
         </div>
       </div>
       <div
@@ -125,6 +99,12 @@ const PersonalPortfolio = () => {
           shortDescription="We collaborated as the Development team in the creation of Vibrant Health & Beauty website using the WordPress Kadence theme."
           img="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/project_item/attachment/31a754b2434745466cc1551238f8275a-1715385760753/Vibrant%20Health%20_%20Beauty.png"
           path="https://www.vibranthealthandbeauty.com/"
+        />
+        <PortfolioItem
+          title="Portfolio / CV Ing. Juan Sierra"
+          shortDescription="We collaborated as the Design & Development team in the creation of Portfolio / CV for Civil Engineer Juan Sierra, this was made using Bootstrap."
+          img="https://freelancer-bucket.s3.us-east-2.amazonaws.com/projects/66bf7d222550762e446d9804-Captura de pantalla 2024-09-09 132750.png"
+          path="https://jhenrysierra.github.io/ingjuansierra/"
         />
       </div>
     </>
