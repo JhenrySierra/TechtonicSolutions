@@ -63,7 +63,7 @@ function HeroSection16() {
               to="/portfolio"
               className="animate__animated animate__infinite animate__pulse"
             >
-              <Badge content="6" color="deep-orange">
+              <Badge content="7" color="deep-orange">
                 <Button
                   className="tracking-widest "
                   ripple={true}
