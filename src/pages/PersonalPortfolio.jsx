@@ -106,6 +106,12 @@ const PersonalPortfolio = () => {
           img="https://freelancer-bucket.s3.us-east-2.amazonaws.com/projects/66bf7d222550762e446d9804-Captura de pantalla 2024-09-09 132750.png"
           path="https://jhenrysierra.github.io/ingjuansierra/"
         />
+        <PortfolioItem
+          title="Jasper Stone Barbers & Spa"
+          shortDescription="We collaborated as the Design & Development team to redisgn of the barbershop' website, providing a fresher and more modern look, as well as implementing new features, this was made using Squarespace."
+          img="https://freelancer-bucket.s3.us-east-2.amazonaws.com/projects/Captura+de+pantalla+2024-09-15+142649.png"
+          path="https://www.jsbarberspa.com/"
+        />
       </div>
     </>
   );
